@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
  
-import Stories from './Stories';
+import Stories from './Stories'
  
 const App = ({ stories, onArchive }) =>
   <div className="app">
@@ -11,4 +11,4 @@ const App = ({ stories, onArchive }) =>
     />
   </div>
  
-export default App;
+export default App

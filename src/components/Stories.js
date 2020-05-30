@@ -1,7 +1,7 @@
-import React from 'react';
-import './Stories.css';
+import React from 'react'
+import './Stories.css'
 
-import Story from './Story';
+import Story from './Story'
 
 const COLUMNS = {
   title: {
@@ -51,4 +51,4 @@ const StoriesHeader = ({ columns }) =>
     )}
   </div>
 
-export default Stories;
+export default Stories

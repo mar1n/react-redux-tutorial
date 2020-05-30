@@ -14,12 +14,12 @@ const INITIAL_STATE = [
       points: 5,
       objectID: 1,
     },
-  ];
-   
+  ]
+  
   function storyReducer(state = INITIAL_STATE, action) {
     switch(action.type) {
-      default : return state;
+      default : return state
     }
   }
-   
-  export default storyReducer;
+  
+  export default storyReducer
